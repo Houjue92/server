@@ -1,0 +1,29 @@
+.container {
+    border:1px solid black;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.content {
+    font-size: 100px;
+    text-align: center;
+}
+.btn-group {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-group button {
+    width: 50%;
+    height: 50px;
+    background: tomato;
+    color:white
+}
+
+.btn-group button:hover {
+    cursor: pointer;
+    color: tomato;
+    background: white;
+}
